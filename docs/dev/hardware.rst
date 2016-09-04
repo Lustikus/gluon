@@ -62,7 +62,7 @@ required for adding a new target:
 
 Adjust packages
 '''''''''''''''
-One package that definitely needs adjustments for every new target added is ``lua-platform-info``. Just
+One package that definitely needs adjustments for every new target added is ``lua-platform-info`` and ``libplatforminfo``. Just
 start with a copy of an existing platform info script, adjust it for the new target, and add the new target
 to the list of supported targets in the package Makefile.
 
